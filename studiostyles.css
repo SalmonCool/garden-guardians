@@ -1,0 +1,45 @@
+#studio-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#studio-panel h1 {
+    font-size: 100px;
+    margin: 20px;
+}
+
+.person-panel {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.text-container {
+    display: inline-block;
+    margin-bottom: auto;
+    width: 95%;
+}
+
+.text-container h2 {
+    font-size: 50px;
+    margin: 5px;
+}
+
+.text-container p {
+    font-size: 20px;
+    margin: 10px;
+    overflow-wrap: break-word;
+}
+
+.person-panel img {
+    margin-left: 60px;
+    width: 550px;
+    border-radius: 20px;
+}
+
+.person-description {
+    width: 500px;
+}

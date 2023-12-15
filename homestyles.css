@@ -1,29 +1,4 @@
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Pacifico;
-  background-color: #333531;
-  color: #ffffff;
-}
-
-body hr 
-{
-    width: 90%;
-    border: #ffffff 2px solid;
-    border-radius: 10px;
-}
-
-body div 
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 10px;
-}
-
 #introduction-panel {
     display: flex;
     flex-direction: column;
@@ -52,6 +27,7 @@ body div
 }
 
 #unreal-panel {
+    height: 1000px;
     padding: 10px;
     background-color: #ffffff;
     color: black;
@@ -69,6 +45,7 @@ body div
 }
 
 #gnome-panel {
+    height: 1000px;
     padding: 10px;
 }
 
@@ -84,18 +61,33 @@ body div
 }
 
 #defense-panel {
+    height: 1000px;
     background-color: #ffffff;
 }
 
 #defense-panel h1 {
     font-size: 70px;
     color: #000000;
-    margin: 20px;
+    margin: 40px;
 }
 
 #gnome-dusk {
     max-width: 1000px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+#gnome-dusk-container {
+    display: flex;
+    max-width: 800px;
+    max-height: 450px;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+#tool-panel {
+    height: 1000px;
 }
 
 #tool-panel h1 {

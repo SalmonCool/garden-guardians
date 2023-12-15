@@ -1,0 +1,31 @@
+
+#update-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+#update-panel h1 {
+    font-size: 100px;
+    margin: 20px;
+}
+
+.dev-log-container {
+    display: grid;
+    margin-bottom: 20px;
+    align-items: left;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+
+.dev-log-container h2 {
+    font-size: 50px;
+}
+
+.dev-log-container iframe {
+    display: border-box;
+    border: white 1px solid;
+    padding: 10px;
+}
