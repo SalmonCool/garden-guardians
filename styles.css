@@ -54,15 +54,57 @@ body div
 #unreal-panel {
     padding: 10px;
     background-color: #ffffff;
+    color: black;
+    font-family: Bebas Neue;
+}
+
+#unreal-panel-logo{
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+#unreal-panel h1 {
+    font-size: 100px;
+    margin: 20px;
 }
 
 #gnome-panel {
-    
+    padding: 10px;
+}
+
+#gnome-rapture
+{
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+#gnome-panel h1 {
+    font-size: 70px;
+    margin: 0px;
 }
 
 #defense-panel {
     background-color: #ffffff;
 }
 
-#tool-panel {
+#defense-panel h1 {
+    font-size: 70px;
+    color: #000000;
+    margin: 20px;
+}
+
+#gnome-dusk {
+    max-width: 1000px;
+    margin-bottom: 20px;
+}
+
+#tool-panel h1 {
+    font-size: 70px;
+    margin: 0px;
+}
+
+#gnome-axe {
+    max-width: 1000px;
+    max-height: 500px;
+    margin-bottom: 20px;
 }
